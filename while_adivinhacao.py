@@ -43,10 +43,14 @@ else:
 
 '''
 
-x = 2
-tentativas = 3
-nSecreto = [1, 3, 6, 9, 8, 12]
-opcao = " "
+import auxiliares
+
+x = auxiliares.x
+tentativas = auxiliares.tentativas
+nSecreto = auxiliares.nSecreto
+opcao = auxiliares.opcao
+
+auxiliares.variaveis_auxiliares()
 
 while opcao.upper() != 'S':
 
